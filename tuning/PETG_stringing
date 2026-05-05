@@ -1,0 +1,5 @@
+Print slow. Printing fast will increase the back pressure in the nozzle and make it more likely to ooze when traveling between printed areas.
+Completely turn off Z-hop if you can. The pause and lifting of the nozzle will actually pull materials like PETG/TPU out of the nozzle and contribute to stringing. With Z-hop disabled the sudden sideways jerk when traveling between printed areas will be more likely to shear off the strings before they form.
+Make sure you are printing in the right temperature range for your filament. Printing hotter than needed will increase the likelihood of strings
+Try increasing/decreasing retraction speed. Increasing the speed will generally decrease stringing, but some filaments will break away from the molten portion of the filament if retracted too fast leaving that molten section to ooze out. Trial and error is needed here to find the right settings.
+Increase retraction distance if you haven't already. PETG likes to be retracted about double what ABS/PLA needs.
